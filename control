@@ -5,5 +5,5 @@ Architecture: iphoneos-arm64
 Depends: mobilesubstrate, firmware (>= 15.0)
 Maintainer: Spec
 Author: Spec
-Description: AppStore++ style version picker — long-press Get/Update in the App Store to choose which version to install. Pin an app to a known-good build before an update breaks it.
+Description: Pin App Store apps to a known-good version. Per-app version pin: updates stop being offered, auto-update is neutered for that app, and any manual update reinstalls the pinned build instead of the new one. Unpin anytime.
 Section: Tweaks

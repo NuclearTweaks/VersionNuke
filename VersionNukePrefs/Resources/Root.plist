@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<dict>
+		<key>cell</key>
+		<string>PSGroupSpecifier</string>
+		<key>footerText</key>
+		<string>Pin an app to the version you have now and updates can never move you off it. A pinned app stops offering updates, auto-update resolves to the pinned build, and even a manual Update reinstalls the pinned version. Unpin to go back to normal.</string>
+	</dict>
+	<dict>
+		<key>cell</key>
+		<string>PSSwitchCell</string>
+		<key>label</key>
+		<string>VersionNuke enabled</string>
+		<key>default</key>
+		<true/>
+		<key>Get</key>
+		<string>readEnabled:</string>
+		<key>Set</key>
+		<string>writeEnabled:forSpecifier:</string>
+	</dict>
+	<dict>
+		<key>cell</key>
+		<string>PSGroupSpecifier</string>
+		<key>footerText</key>
+		<string>Apps</string>
+	</dict>
+	<dict>
+		<key>cell</key>
+		<string>PSLinkListCell</string>
+		<key>label</key>
+		<string>Pin app versions</string>
+		<key>detail</key>
+		<string>VNAppListController</string>
+	</dict>
+	<dict>
+		<key>cell</key>
+		<string>PSGroupSpecifier</string>
+		<key>footerText</key>
+		<string>Pin state changes apply to the next update check — no respring. "Current version" comes from the App Store daemon's own ledger, so it is the exact build you are running.</string>
+	</dict>
+</array>
+</plist>
